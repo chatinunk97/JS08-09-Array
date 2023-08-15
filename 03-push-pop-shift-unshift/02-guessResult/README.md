@@ -7,5 +7,5 @@ arr.push(function() {
   alert(this);
 })
 
-arr[2](); // *
+arr[2](); // *it will alerts "array elements being "a", "b", function(){alert(this)}
 ```
