@@ -15,26 +15,28 @@ objectItem = [
     {itemName : "Rice" , itemCode : "00091" , itemPrice : 1000},
     
 ]
-newarr = [];
-objectItem.forEach((item) =>{
-    newarr.push(item)
-})
-// log(newarr)
+// newarr = [];
+// objectItem.forEach((item) =>{
+//     newarr.push(item)
+// })
+// // log(newarr)
 
-newarr2 = objectItem.map((item) => {return item})
-// log(newarr2)
+// newarr2 = objectItem.map((item) => {return item})
+// // log(newarr2)
 
-a = objectItem.find((item) => item["itemName"] ==="Fruit")
-log(a)
+// a = objectItem.find((item) => item["itemName"] ==="Fruit")
+// log(a)
 
-b = objectItem.findIndex((item) => item["itemName"] ==="Fruit")
-log(b)
+// b = objectItem.findIndex((item) => item["itemName"] ==="Fruit")
+// log(b)
 
-c = objectItem.findIndex((item) => item["itemName"] ==="Something")
-log(c)
+// c = objectItem.findIndex((item) => item["itemName"] ==="Something")
+// log(c)
 
-let newObjItem = objectItem[b]
-newObjItem["itemPrice"] += 10000.50
-log(newObjItem)
-objectItem.splice(b,1,newObjItem)
-log(objectItem)
+// Check and editting found item 
+// let newObjItem = objectItem[b]
+// newObjItem["itemPrice"] += 10000.50
+// log(newObjItem)
+// objectItem.splice(b,1,newObjItem)
+// log(objectItem)
+
